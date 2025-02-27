@@ -1,0 +1,5 @@
+testserver :
+	g++ -o testserver testserver.cc -lsimuduo -lpthread
+
+clean :
+	rm -f testserver
